@@ -225,11 +225,6 @@ hr.small {
 
 /* contact footer */
 #footer .container {
-  background: url(../img/tiantou-glare.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
 }
 
 /* Map */
@@ -252,5 +247,15 @@ hr.small {
 /* Footer */
 
 footer {
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    background: url(../img/tiantou-glare.jpg) no-repeat center top scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+footer a {
+  color: #000;
 }
