@@ -153,19 +153,22 @@ hr.small {
 .header {
     display: table;
     position: relative;
+    padding-bottom: 100px;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/havana.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+
 /* About */
 
 .about {
     padding: 50px 0;
+    background-color: #3CC4B6;
 }
 
 .single-col {
@@ -175,12 +178,30 @@ hr.small {
 
 /* Services */
 
-.services {
-    padding: 50px 0;
+.projects {
+    padding: 0 0;
 }
 
-.service-item {
+.projects p a {
+  color: #FCD186;
+}
+
+.research-item {
     margin-bottom: 30px;
+}
+
+/* CV */
+.cv {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 80%;
+  padding-bottom: 200px;
+  background: url(../img/guilin.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 /* Callout */
@@ -195,6 +216,11 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+/* side projects */
+.side-projects {
+  padding: 50px 0;
 }
 
 /* Portfolio */
