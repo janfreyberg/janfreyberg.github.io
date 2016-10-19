@@ -2,7 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center single-col">
-        {% markdown research.md %}
+        {% capture my-include %}{% include test.md %}{% endcapture %}
+        {{ my-include | markdownify }}
       </div>
     </div>
     <!-- /.row -->
