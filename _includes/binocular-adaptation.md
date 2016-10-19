@@ -12,5 +12,5 @@ at a slightly higher level.
 It showed no real difference in adaptation between an autistic
 and a control group, and also proved to be a neat way to study
 contributions of different levels of the visual hierarchy to
-rivalry. You can find a [draft of this project here](http://janfreyberg.com/pubs/adaptation-paper-4.pdf), and try the
+rivalry. You can find a [draft of this project here]({{ site.baseurl }}/pubs/adaptation-paper-4.pdf), and try the
 code yourself below.

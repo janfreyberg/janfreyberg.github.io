@@ -13,6 +13,6 @@ proxy measure of the Excitation/Inhibition ratio in the brain.
 Read more:
 
 [“Slower Rate of Binocular Rivalry in Autism.” Journal of Neuroscience](http://www.jneurosci.org/content/33/43/16983)
-[(PDF)](http://www.janfreyberg.com/pubs/16983.full.pdf)
+[(PDF)]({{ site.baseurl }}/pubs/16983.full.pdf)
 
 [“Reduced Perceptual Exclusivity during Object and Grating Rivalry in Autism.” Journal of Vision (Open access)](http://jov.arvojournals.org/article.aspx?articleid=2442873)
