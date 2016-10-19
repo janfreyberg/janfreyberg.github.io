@@ -164,11 +164,20 @@ hr.small {
 }
 
 
-/* About */
+/* Research */
 
-.about {
+.research {
     padding: 50px 0;
     background-color: #3CC4B6;
+}
+
+.research p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .single-col {
@@ -176,7 +185,7 @@ hr.small {
   text-align:center;
 }
 
-/* Services */
+/* Projects */
 
 .projects {
     padding: 0 0;
