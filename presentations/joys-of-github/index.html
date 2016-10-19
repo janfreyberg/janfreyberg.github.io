@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/kcl.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section class="title-slide" data-background="images/kcl-logo.png" data-state="top-right">
+					<h2 id="presentation-title">
+						GitHub
+					</h2>
+					<p>
+						FaNS Department
+					</p>
+					<img height="80px" max-width="100%" data-src="images/fans-logo.png" alt="Fans Logo" align="left">
+					<img height="65px" max-width="100%" data-src="images/sackler-logo.png" alt="Sackler Logo" align="left">
+				</section>
+
+				<section>
+					<section>
+					<h3>Version Control</h3>
+					<p>
+						Version control is the process of updating your document versions,
+						while keeping track of older versions.
+						<br><br>
+						So, for example:
+						<ul>
+							<li>thesis.doc</li>
+							<li>thesis_1.doc</li>
+							<li>thesis_2.doc</li>
+							<li>...</li>
+							<li>thesis_final.doc</li>
+							<li>thesis_final_for_real.doc</li>
+						</ul>
+					</p>
+					</section>
+					<section>
+						<h3>Version Control</h3>
+						<p>
+							Git is a method that allows you to do version control. While it's
+							designed for coding, you can use it for anything.
+							<br><br>
+							Git is also particularly designed for collaborative work, so when
+							you're working on an analysis script with someone else.
+							<br><br>
+							It relies on you "pushing" your code to a server, and others can
+							"pull" it from there, or push their own changes.
+						</p>
+					</section>
+					<section>
+						<h3>Version Control</h3>
+						<p>
+							<br><br>
+							Github is a company that aims to make the use of git easier, by
+							allowing you to look at your code through your web browser, and
+							allowing you to interact with others.
+							<img data-src="images/branching.png">
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<p>
+						On your desktop, you can use GitHub to manage your repositories and
+						commit your changes.
+						<br>
+						<img data-src="images/github-desktop.jpg" alt="Github Desktop">
+					</p>
+				</section>
+
+				<section>
+					<h3>Github and the web</h3>
+					<br><br>
+					<p class="fragment fade-down">In your browser, you can visit <a href="http://github.com/janfreyberg" target="_blank">github.com.</a></p>
+					<br><br>
+					<p class="fragment fade-down">Github makes sharing your code, as well as your results, easy - so you can comply with guidelines by journals such as PLOS One and Science</p>
+					<br><br>
+					<p class="fragment fade-down">Github integrates very well into existing facilities for managing your projects, such as the <a href="https://osf.io/javn4/" target="_blank">Open Science Framework</a></p>
+				</section>
+
+				<section>
+					<h3>Github in your workflow</h3>
+					<br><br>
+					<p class="fragment fade-down">You can also use GitHub as a <a href="https://guides.github.com/introduction/flow/" target="_blank">to-do list manager for your analysis</a></p>
+					<br><br>
+					<p class="fragment fade-down">And, as an academic institution, we get <a href="https://github.com/ioppn-fans" target="_blank">free "premium" institutional benefits.</a></p>
+				</section>
+
+
+			</div>
+		</div>
+
+
+
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				transition: "slide",
+				backgroundTransition: "none",
+				center: false,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
