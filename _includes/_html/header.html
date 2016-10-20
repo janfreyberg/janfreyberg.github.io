@@ -1,0 +1,6 @@
+<header id="top" class="header">
+  <div class="text-vertical-center">
+    {% capture my-include %}{% include header.md %}{% endcapture %}
+    {{ my-include | markdownify }}
+  </div>
+</header>
