@@ -1,5 +1,6 @@
 <header id="top" class="header">
   <div class="text-vertical-center">
+    <!-- Now draw text from markdown file with liquid tag: -->
     {% capture my-include %}{% include header.md %}{% endcapture %}
     {{ my-include | markdownify }}
     <hr class="small">
