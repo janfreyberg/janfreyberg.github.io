@@ -2,5 +2,14 @@
   <div class="text-vertical-center">
     {% capture my-include %}{% include header.md %}{% endcapture %}
     {{ my-include | markdownify }}
+    <hr class="small">
+    <ul class="list-inline">
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+      </li>
+      <li>
+        <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github fa-fw fa-3x"></i></a>
+      </li>
+    </ul>
   </div>
 </header>
