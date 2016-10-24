@@ -1,3 +1,3 @@
 # Jan Freyberg #
-Vision and Data Science in Psychiatric Research
-------
+
+## Vision and Data Science in Psychiatric Research ##
