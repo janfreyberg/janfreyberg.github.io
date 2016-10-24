@@ -292,6 +292,6 @@ footer {
     -o-background-size: cover;
 }
 
-footer a {
-  color: #000;
+footer a, .header a {
+  color: inherit;
 }
