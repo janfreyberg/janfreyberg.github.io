@@ -1,9 +1,9 @@
 <div class="container taglist">
-  <div class="row">
+  <div class="row vertical-center">
     <div class="col-lg-12 text-center single-col">
     <p>
       {% for tag in site.tags %}
-        <a href="/tags/{{ tag | first }}" class="tag"><i class="fa fa-tag fa-fw-2x"></i> {{ tag | first }}</a>&emsp;
+        <a href="/blog/tags/{{ tag | first }}" class="tag"><i class="fa fa-tag fa-fw-2x"></i> {{ tag | first }} ({{ tag | last | size }})</a>&emsp;
       {% endfor %}
     </p>
     <!-- column -->
