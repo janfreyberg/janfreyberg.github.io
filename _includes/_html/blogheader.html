@@ -1,5 +1,5 @@
 <header id="top" class="bloghead"
-{% if page.bgimage %}style="background-image: url({{ site.baseurl }}/img/{{ page.bgimage }})"
+{% if page.bgimage %}style="background-image: url(/img/{{ page.bgimage }})"
 {% else %}style="background-color: #3CC4B6"
 {% endif %}>
   <div class="text-vertical-center">
@@ -9,7 +9,7 @@
     <hr class="small">
     <!-- get the post tags and list them one by one -->
       {% for tag in page.tags %}
-        <a href="/blog/tags/{{ tag }}" class="tag text-muted">
+        <a href="/blog/tags/{{ tag }}" class="tag">
           <i class="fa fa-tag fa-fw-2x"></i>&nbsp;{{ tag }}
         </a>&emsp;
       {% endfor %}

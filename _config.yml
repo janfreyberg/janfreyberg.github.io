@@ -1,9 +1,9 @@
 # Site settings
 title: Jan Freyberg
 email: jan.freyberg@kcl.ac.uk
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: /blog/ # the subpath of your site, e.g. /blog/
 url: "www.janfreyberg.com" # the base hostname & protocol for your site
-permalink: pretty
+permalink: /blog/:year-:month-:day-:title/
 # plugins
 gems: [jekyll-paginate]
 # pagination

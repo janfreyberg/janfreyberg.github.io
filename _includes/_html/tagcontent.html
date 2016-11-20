@@ -8,7 +8,7 @@
             <a href="{{post.url}}" title="{{ post.title }}">
               <h3>{{ post.title }}</h3>
             </a>
-            <p class="tags date">
+            <p class="tags date text-muted">
               <!-- include the post date -->
               {{ post.date | date_to_string }}
               <!-- include the post tags -->
@@ -21,7 +21,7 @@
             <!-- include the subtitle of the post -->
             <p>{{ post.subtitle }}</p>
             <!-- include a post excerpt -->
-            <p class="excerpt">
+            <p class="excerpt text-muted">
               {{ post.content | strip_html | truncatewords: 50 }}
             </p>
           </div>
