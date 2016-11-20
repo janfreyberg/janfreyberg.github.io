@@ -1,0 +1,17 @@
+<header id="top" class="bloghead"
+{% if page.bgimage %}style="background-image: url({{ site.baseurl }}/img/{{ page.bgimage }})"
+{% else %}style="background-color: #3CC4B6"
+{% endif %}>
+  <div class="text-vertical-center">
+    <!-- Now draw text from markdown file with liquid tag: -->
+    <h1>{{page.title}}</h1>
+    <h4>All posts tagged {{page.title}}</h4>
+    <hr class="small">
+    <!-- get the post tags and list them one by one -->
+      {% for tag in page.tags %}
+        <a href="/tags#{{ tag }}" class="tag">
+          <i class="fa fa-tag fa-fw-2x"></i>&nbsp;{{ tag }}
+        </a>&emsp;
+      {% endfor %}
+  </div>
+</header>

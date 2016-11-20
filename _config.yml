@@ -7,6 +7,16 @@ description: > # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "www.janfreyberg.com" # the base hostname & protocol for your site
+permalink: pretty
+# plugins
+gems: [jekyll-paginate]
+# pagination
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# for jekyll-rss
+name: Jan Freyberg's blog
+description: Statistics, data, and cognitive science. I blog neither frequently nor regularly.
 
 # User setting
 owner: Jan Freyberg
