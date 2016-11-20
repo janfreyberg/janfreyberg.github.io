@@ -311,6 +311,18 @@ footer a:hover, .header a:hover {
   color: #23527C;
 }
 
+/* Previews of blogpost on front page */
+
+.card-light {
+  border-radius: 0;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
+}
+
+.card-light:hover {
+  background-color: rgba(255,255,255,1.0);
+}
 
 /* Blogposts */
 
