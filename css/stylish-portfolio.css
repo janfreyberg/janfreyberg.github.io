@@ -57,17 +57,6 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-.card-light {
-  border-radius: 0;
-  color: #333;
-  background-color: rgb(255,255,255);
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
-}
-
-.card-light:hover {
-  background-color: rgba(255,255,255,0.8);
-}
-
 /* Custom Horizontal Rule */
 
 hr.small {
@@ -306,12 +295,12 @@ footer a:hover, .header a:hover {
 section.blogprev {
   padding: 50px 0px;
   background: url(../img/tetons.jpg) no-repeat center top scroll;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .previewcards {
   padding-top: 50px;
-  height: 270px;
+  min-height: 300px;
 }
 
 .previewcards .excerpt {
@@ -322,7 +311,9 @@ section.blogprev {
   border-radius: 0;
   color: #333;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  margin: 15px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
   overflow: hidden;
 }
