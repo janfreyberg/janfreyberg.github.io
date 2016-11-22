@@ -5,7 +5,7 @@ subtitle: A huge amount of customization with jekyll & bootstrap
 tags: website backend
 ---
 
-I could really like web development. I've created two websites, this one, and one for a charity I used to volunteer for, [Education Partnerships Africa](http://www.epafrica.org/). The website for EPAfrica was primarily built by others, but I was involved in some of the detail work. It's built with wordpress, which is great: it can be a simple drag/drop, but it can also change almost every detail. But I always found it really fiddly too, and it takes a long time to do small changes.
+I could really like web development. I've created two websites, this one, and one for a charity I used to volunteer for, [Education Partnerships Africa](http://www.epafrica.org.uk/). The website for EPAfrica was primarily built by others, but I was involved in some of the detail work. It's built with wordpress, which is great: it can be a simple drag/drop, but it can also change almost every detail. But I always found it really fiddly too, and it takes a long time to do small changes.
 
 There are many reasons I wanted to build my personal website without a managed platform like wordpress. One, I like understanding anything I'm working on. Two, I want my page to be lightweight, and wordpress is anything but. Three, I usually code in [Atom](http://www.atom.io), and really like writing in it - it's what I'm writing this blogpost in right now. And four, I want to have a good place to host the website[^1].
 
