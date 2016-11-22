@@ -395,3 +395,24 @@ section.blogprev {
 .taglist a {
   color: inherit;
 }
+
+/* Gallery page */
+section.gallery {
+  min-height: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.dummy {
+    margin-top: 100%;
+}
+.tile {
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    text-align:center;
+    margin-top:calc(50%);
+    border: #000;
+    background-color: rgba(255, 255, 255, 0.8)
+}
