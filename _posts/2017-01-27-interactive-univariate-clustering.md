@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Univariate k-means clustering
 subtitle: Finding structure in your data
 date: "2017-01-27"
