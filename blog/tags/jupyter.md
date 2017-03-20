@@ -1,4 +1,4 @@
 ---
-title: clustering
+title: jupyter
 layout: tagpage
 ---

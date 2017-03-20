@@ -1,4 +1,4 @@
 ---
-title: clustering
+title: interactive
 layout: tagpage
 ---
