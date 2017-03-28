@@ -6,7 +6,7 @@
         <h2>Side Projects</h2>
         <hr class="small">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-4 col-sm-4 research-item">
             <div class="service-item">
               <span class="fa-stack fa-4x">
               <i class="fa fa-circle fa-stack-2x"></i>
@@ -20,7 +20,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6">
+          <div class="col-md-4 col-sm-4 research-item">
             <div class="service-item">
               <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x"></i>
@@ -35,6 +35,20 @@
             </div>
           </div>
         </div>
+          <div class="col-md-4 col-sm-4 research-item">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-eye fa-stack-1x text-primary"></i>
+            </span>
+            {% capture my-include %}{% include niwidgets.md %}{% endcapture %}
+            {{ my-include | markdownify }}
+              <a href="https://github.com/janfreyberg/niwidgets" target="_blank" class="btn btn-light">
+                <i class="fa fa-github fa-fw-2x"></i>
+                Try it
+              </a>
+            </div>
+          </div>
         <!-- /.row (nested) -->
       </div>
       <!-- /.col-lg-10 -->
