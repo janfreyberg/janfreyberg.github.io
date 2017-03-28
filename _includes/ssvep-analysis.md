@@ -1,13 +1,6 @@
 #### **SSVEP Analysis** ####
 
-I'm also working on a package that makes it easier to analyse
-steady-state visually evoked potentials (SSVEPs). This package
-will include functions that analyse neural oscillations based on
-the prior information of what frequency you used to stimulate
-the participant.
-It will hopefully also make it easy to identify and analyse
-harmonics, intermodulation frequencies, and signal-to-noise
-ratios of SSVEPs.
+I've also developed a package that makes it easier to analyse
+steady-state evoked potentials. Primarily because I work with steady-state __visually__ evoked potentials (SSVEPs), this is called [ssvepy](https://github.com/janfreyberg/ssvepy), but it works with any evoked-frequency / frequency-tagging data. Based on MNE-python data structures, you simply initialise a data class with epoched data as well as your stimulation frequencies, and it automatically calculates your signal-to-noise ratio at stimulation frequencies as well as harmonics (and, in the future, intermodulation frequencies).
 
-The project isn't ready for release yet, but if you're
-interested, get in touch.
+You can check out the [example notebook](https://github.com/janfreyberg/ssvepy/blob/master/example.ipynb) on github, and install the package via `pip install git+https://github.com/janfreyberg/ssvepy.git`
