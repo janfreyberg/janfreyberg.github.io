@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: A workflow for writing papers in Rmarkdown
 subtitle: Writing papers in Rmarkdown is easy when integrated with Zotero and the Knit-to-Word function.
 date: "2017-05-27"
