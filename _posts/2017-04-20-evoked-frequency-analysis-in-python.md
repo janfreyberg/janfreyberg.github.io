@@ -23,6 +23,6 @@ This way, you can do your data processing in MNE (re-referencing, de-noising, ep
 
 The package also takes care of a couple of important things for you when it comes to evoked frequencies. For example, it calculates harmonic and subharmonic frequencies for you. It also calculates intermodulation frequencies for you if you specifiy more than one stimulation frequency. I think this is particularly useful, since it's quite a lot of hassle calculating these yourself. And of course, for each of these "special" frequencies, it automatically evaluates the amplitude, signal-to-noise ratio, and scalp distribution for you.
 
-Try it out! Simply install it from pypi via `pip install ssvepy`, or from [github](https://github.com/janfreyberg/ssvepy).
+Try it out! Simply install it from pypi via `pip install ssvepy`, or from [github](https://github.com/janfreyberg/ssvepy). The documentation and an example notebook are at http://www.janfreyberg.com/ssvepy
 
 And if you find you're running into trouble, please do open an issue on github, or contact me on [twitter](http://twitter.com/janfreyberg).
