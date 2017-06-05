@@ -313,13 +313,9 @@ section.blogprev {
   height: 100%;
   margin: 15px;
   padding: 5px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
   overflow: hidden;
-}
-
-.card-light:hover {
-  background-color: rgba(255, 255, 255, 1);
 }
 
 /* Blogposts */
