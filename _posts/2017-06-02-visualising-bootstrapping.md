@@ -3,7 +3,7 @@ layout: post
 title: Visualising the bootstrap with shiny
 subtitle: You can try out bootstrapping with my new shiny app.
 date: "2017-05-27"
-tags: r zotero
+tags: shiny visualisation statistics teaching
 shinyembed: factorial-anova
 ---
 
@@ -13,7 +13,7 @@ From this normal distribution of estimates, you can then calculate the variance 
 
 So far so good for the theory! There's obviously lots and lots more to think about when it comes to bootstrapping, and one of the key things is: __how many bootstraps should I run?__
 
-To help illustrate how your distributions change with more and more samples, I created a `shiny` app that lets you try out different amounts of re-samples:
+To help illustrate how your distributions change with more and more samples, I created a `shiny` app that lets you try out different amounts of re-samples. It's embeded below, but you can also find it at [shiny.janfreyberg.com](http://shiny.janfreyberg.com)
 
 {::nomarkdown}
 {% include inblog/shinyembed.html %}
