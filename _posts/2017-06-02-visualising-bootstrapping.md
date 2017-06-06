@@ -5,6 +5,7 @@ subtitle: You can try out bootstrapping with my new shiny app.
 date: "2017-05-27"
 tags: shiny visualisation statistics teaching
 shinyembed: bootstrap
+shinystyle: "min-height: 850px;"
 ---
 
 [Bootstrapping](https://en.wikipedia.org/wiki/Bootstrapping) is a really useful statistical tool. It relies on re-sampling, with replacement, from a sample of data you have acquired. The idea is that by re-sampling your sample over and over again, you simulate running studies over and over again. It's obviously not exactly analogous - sampling bias in your original sample will still affect your bootstrapped samples. But what's great is that you can re-calculate summary statistics, such as standard deviation, for each bootstrapped sample. And due to the [central limit theorem](https://en.wikipedia.org/wiki/Central_limit_theorem), these statistics will be normally distributed.
