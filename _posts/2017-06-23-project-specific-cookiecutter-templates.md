@@ -22,7 +22,7 @@ cookiecutter https://github.com/janfreyberg/cookiecutter-healthy-brain
 
 It will ask you for the "slug" (or folder / repository name) you want to use, and where you would like to store your data. It then provides functions to download the CMI Healthy Brain data from their amazon S3 bucket (for example, simply `import data.download.download_sample_eeg` and run the function to download a random sample of EEG datasets), and to load that data (`from data.eeg.preprocessed.resting_state import epochs`).
 
-![](img/importing-data.png)
+![](/img/importing-data.png)
 
 This means you can use the data with simple and efficient code in your analysis. An example of how you might want to go about it is given [in an example notebook](https://github.com/janfreyberg/cookiecutter-healthy-brain/blob/master/%7B%7Bcookiecutter.project_slug%7D%7D/00.02-use-eeg-data.ipynb).
 
