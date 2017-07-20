@@ -6,6 +6,7 @@ date: 2016-11-19
 tags: visualisation statistics teaching
 shinyembed: confidence-intervals
 shinystyle: "min-height: 850px;"
+comments: true
 ---
 
 Confidence intervals are a nice way to present your results. They get you away from the dichotomous nature of _p_-values, and allow you to express the precision of the variable of interest. Whether it is the difference between two groups in a t-test or the slope of a linear regression, it helps the reader in understanding your data if you tell them how precisely you can estimate the data.

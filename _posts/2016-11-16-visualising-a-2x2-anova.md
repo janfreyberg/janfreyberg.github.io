@@ -5,6 +5,7 @@ subtitle: One way to make clear what is being calculated in a two-way ANOVA
 date: "2016-11-16"
 tags: visualisation statistics teaching
 shinyembed: factorial-anova
+comments: true
 ---
 
 The factorial design ANOVA (or Analysis of Variance) is maybe one of simplest yet most used tools in psychological research. It's a test of mean differences between groups, but it tests for those mean differences using a "Variance explained" approach.

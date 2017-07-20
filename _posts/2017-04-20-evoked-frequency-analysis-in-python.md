@@ -4,6 +4,7 @@ title: Analysing SSVEPs and other evoked frequencies in python
 subtitle: A new package that builds on MNE-python and makes analysing evoked frequencies easy.
 date: "2017-05-20"
 tags: eeg python ssvep
+comments: true
 ---
 
 I frequently work with evoked frequencies. This involves stimulating your subjects at a certain frequency (say, by flickering a light at a 10 Hz), and simultaneously recording brain activity. Usually, this recording is done with EEG or MEG data, since it gives you enough temporal resolution to pick up a wide range of frequencies. When you then analyse the frequencies in the recorded data, you can usually very distinctly pick up the frequency at which you stimulated.

@@ -5,6 +5,7 @@ subtitle: Finding structure in your data
 date: "2017-01-27"
 tags: statistics data kmeans clustering
 shinyembed: elbow-kmeans
+comments: true
 ---
 
 Often data is distributed normally. But sometimes, there is sub-grouping in your data that is worth exploring a bit more: For example, a subset of your data is drawn from a different population, and therefore has a different mean.

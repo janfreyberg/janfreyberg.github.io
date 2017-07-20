@@ -4,6 +4,7 @@ title: A workflow for writing papers in Rmarkdown
 subtitle: Writing papers in Rmarkdown is easy when integrated with Zotero and the Knit-to-Word function.
 date: "2017-05-27"
 tags: r zotero
+comments: true
 ---
 
 [Rmarkdown](http://rmarkdown.rstudio.org) is a syntax for writing plain text documents that get converted to rich text webpages, pdfs, word documents and presentations. At its basic level, it follows the ideas behind all plain-to-rich text converters: that writing without having to focus on the layout of the document makes it easier to concentrate on what you want to convey, not how you are going to convey it.

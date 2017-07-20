@@ -4,6 +4,7 @@ title: Project-specific cookiecutter templates for reproducible work
 subtitle: Making it easier for others to use data sets by providing standardised ways of getting the data and loading the data with cookiecutter.
 date: "2017-06-23"
 tags:
+comments: true
 ---
 
 I recently read a really good blogpost by Enrico Glerean titled [Project management == Data management](https://eglerean.wordpress.com/2017/05/24/project-management-data-management/). In it, he explains best practices for managing data, and standardising project file structures and layouts. One of the tools he mentioned was `cookiecutter`, a tool with which a template github repository can be cloned, with specific variables and file/folder names in the template being replaced by questions `cookiecutter` asks you during setup.

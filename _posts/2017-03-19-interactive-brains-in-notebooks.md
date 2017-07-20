@@ -4,6 +4,7 @@ title: Interactive Brain Visualisations in Notebooks
 subtitle: Letting readers explore your data
 date: "2017-01-27"
 tags: jupyter interactive
+comments: true
 ---
 
 One of the things I think about a lot these days is interactive data. I believe that when you're presenting research or analyses to a data-literate crowd, it's best to allow people to interact with your data. This means readers can explore the data themselves, and if you did your analysis well, then providing interaction with the data will let the reader convince themselves of that fact. It makes your arguments more compelling.
