@@ -5,6 +5,9 @@
   {% include _html/blognav.html %}
   {% include _html/blogheader.html %}
   {% include _html/blogcontent.html %}
+  {% if page.comments %}
+    {% include _html/disqus_comments.html %}
+  {% endif %}
   {% include _html/footer.html %}
   {% include _html/scripts.html %}
 </body>
