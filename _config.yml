@@ -5,7 +5,9 @@ baseurl: /blog/ # the subpath of your site, e.g. /blog/
 url: "www.janfreyberg.com" # the base hostname & protocol for your site
 permalink: /blog/:year-:month-:day-:title/
 # plugins
-gems: [jekyll-paginate]
+gems:
+    - jekyll-paginate
+    - jekyll-redirect-from
 # pagination
 paginate: 5
 paginate_path: "/blog/page:num"
