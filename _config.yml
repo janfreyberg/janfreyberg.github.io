@@ -1,11 +1,11 @@
 # Site settings
 title: Jan Freyberg
 email: jan.freyberg@gmail.com
-baseurl: /blog/ # the subpath of your site, e.g. /blog/
+# baseurl: /blog/ # the subpath of your site, e.g. /blog/
 url: "www.janfreyberg.com" # the base hostname & protocol for your site
 permalink: /blog/:year-:month-:day-:title/
 # plugins
-gems:
+plugins:
     - jekyll-paginate
     - jekyll-redirect-from
 # pagination
@@ -20,16 +20,19 @@ description: Statistics, data, and cognitive science. I blog neither frequently 
 owner: Jan Freyberg
 twitter_username: janfreyberg
 github_username: janfreyberg
-address:
- - line: Post Box 50
- - line: Institute of Psychiatry
- - line: 16 DeCrespigny Park
- - line: London
+# address:
+#  - line: Post Box 50
+#  - line: Institute of Psychiatry
+#  - line: 16 DeCrespigny Park
+#  - line: London
 copyright: Jan Freyberg 2016
 
 # # API settings
 # google_api_key:
 
 # Build settings
+highlighter: rouge
 markdown: kramdown
+kramdown:
+  input: GFM
 # exclude: [presentations, pubs]
