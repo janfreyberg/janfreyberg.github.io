@@ -2,7 +2,7 @@
 title: Jan Freyberg
 email: jan.freyberg@gmail.com
 # baseurl: /blog/ # the subpath of your site, e.g. /blog/
-url: "www.janfreyberg.com" # the base hostname & protocol for your site
+url: "https://www.janfreyberg.com" # the base hostname & protocol for your site
 permalink: /blog/:year-:month-:day-:title/
 # plugins
 plugins:
@@ -30,4 +30,5 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
+github: [metadata]
 # exclude: [presentations, pubs]
