@@ -11,7 +11,7 @@ I recently read a really good blogpost by Enrico Glerean titled [Project managem
 
 I think this is a great way to go about it, but wonder if this can be improved even further for the specific use case of researchers working on the same datasets. Those researchers will usually want to download the same data from some webserver, or if it's already accessible somewhere on the campus network or local computer, to load the data into their analysis scripts.
 
-I experienced this when I recently tried to play around with the [_Child Mind Institute's Healthy Brain Dataset_](http://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html). I plan to do some analysis on this data and I know some friends who plan to do the same.
+I experienced this when I recently tried to play around with the [_Child Mind Institute's Healthy Brain Dataset_](https://fcon_1000.projects.nitrc.org/indi/cmi_healthy_brain_network/index.html). I plan to do some analysis on this data and I know some friends who plan to do the same.
 
 ### Cookiecutter template for a specific dataset
 

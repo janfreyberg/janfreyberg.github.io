@@ -18,7 +18,7 @@ The tricky part comes when you need to decide how many clusters your data likely
 
 One simple method is the "elbow" method, where you try out a certain number of clusters, and plot the within-group sum of squares against number of clusters. You then try and find the "elbow", or the point at which suddenly, increasing the number of clusters doesn't reduce the residual variance very much.
 
-Since this is a visual procedure, it lends itself well to an interactive framework, so I've built one =) you can try it below, or find it [here](http://shiny.janfreyberg.com/shiny-elbow-kmeans). You can also see the backend code [here](http://www.github.com/janfreyberg/shiny-elbow-kmeans), although if you wanted to include a k-means algorithm in your data you probably don't want to use my code since for the purposes of making it interactive it's not the prettiest implementation.
+Since this is a visual procedure, it lends itself well to an interactive framework, so I've built one =) you can try it below, or find it [here](https://shiny.janfreyberg.com/shiny-elbow-kmeans). You can also see the backend code [here](https://www.github.com/janfreyberg/shiny-elbow-kmeans), although if you wanted to include a k-means algorithm in your data you probably don't want to use my code since for the purposes of making it interactive it's not the prettiest implementation.
 
 I'll work on a bivariate version soon!
 

@@ -15,10 +15,10 @@ From this normal distribution of estimates, you can then calculate the variance 
 
 So far so good for the theory! There's obviously lots and lots more to think about when it comes to bootstrapping, and one of the key things is: __how many bootstraps should I run?__
 
-To help illustrate how your distributions change with more and more samples, I created a `shiny` app that lets you try out different amounts of re-samples. It's embeded below, but you can also find it at [shiny.janfreyberg.com](http://shiny.janfreyberg.com)
+To help illustrate how your distributions change with more and more samples, I created a `shiny` app that lets you try out different amounts of re-samples. It's embeded below, but you can also find it at [shiny.janfreyberg.com](https://shiny.janfreyberg.com)
 
 {::nomarkdown}
 {% include inblog/shinyembed.html %}
 {:/}
 
-You can find the source code for it [on github](http://github.com/janfreyberg/shiny-bootstrap). However, you probably do not want to copy the code from it for your own bootstrapping techniques. You could, but there are many R packages out there that make bootstrapping easy. I recommend trying out the [`tidyr` and `broom` packages](https://cran.r-project.org/web/packages/broom/vignettes/bootstrapping.html), as they help you get the results of your bootstrap into a tidy dataframe.
+You can find the source code for it [on github](https://github.com/janfreyberg/shiny-bootstrap). However, you probably do not want to copy the code from it for your own bootstrapping techniques. You could, but there are many R packages out there that make bootstrapping easy. I recommend trying out the [`tidyr` and `broom` packages](https://cran.r-project.org/web/packages/broom/vignettes/bootstrapping.html), as they help you get the results of your bootstrap into a tidy dataframe.

@@ -7,17 +7,17 @@ tags: r zotero
 comments: true
 ---
 
-[Rmarkdown](http://rmarkdown.rstudio.org) is a syntax for writing plain text documents that get converted to rich text webpages, pdfs, word documents and presentations. At its basic level, it follows the ideas behind all plain-to-rich text converters: that writing without having to focus on the layout of the document makes it easier to concentrate on what you want to convey, not how you are going to convey it.
+[Rmarkdown](https://rmarkdown.rstudio.org) is a syntax for writing plain text documents that get converted to rich text webpages, pdfs, word documents and presentations. At its basic level, it follows the ideas behind all plain-to-rich text converters: that writing without having to focus on the layout of the document makes it easier to concentrate on what you want to convey, not how you are going to convey it.
 
 One of the great things about Rmarkdown is that you can integrate R-code in your manuscript. Say you're writing a scientific paper with a few plots in it. You can write the paper, and at the position where you want to include the plot, you include the R-code that produces your plot, instead. This is often called a way to make "reproducible" reports: maybe you write the pre-ample for a monthly summary of data collected by your team once, and every month you just re-compile the Rmarkdown code and get an up to date report of the monthly results.
 
-However, it has benefits even when writing a "one-time" [^1] document such as a paper. When you need to change a plot - maybe [from a bar graph to a violin plot](http://thenode.biologists.com/barbarplots/photo/) at the behest of a reviewer - you just need to change the R-code that produces the plot. For comparison, in an editor like word, you would have had to change the code, then save the plot to file, then insert the file into word and delete the old one.
+However, it has benefits even when writing a "one-time" [^1] document such as a paper. When you need to change a plot - maybe [from a bar graph to a violin plot](https://thenode.biologists.com/barbarplots/photo/) at the behest of a reviewer - you just need to change the R-code that produces the plot. For comparison, in an editor like word, you would have had to change the code, then save the plot to file, then insert the file into word and delete the old one.
 
 But writing in editors such as Word brings its own benefits: mainly, track changes and comments from collaborators, and integration with reference managers. I just wanted to outline a workflow that has worked for me in the past.
 
 ### Easily add citations to your document
 
-For references, I use the package [citr](https://github.com/crsh/citr) alongside [Zotero](http://zotero.org) and the zotero plugin [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex). You need to export your Zotero library to a `.bib` file that you keep synchronised to your library. Then, you add `bibliography: /Users/jan/Documents/Zotero/better-bibtex/zotero-library.bib` to the YAML pre-amble of your Rmarkdown document. Then, if you install the `citr` package, you can simply click the add-in menu and insert a citation:
+For references, I use the package [citr](https://github.com/crsh/citr) alongside [Zotero](https://zotero.org) and the zotero plugin [Better BibTeX](https://github.com/retorquere/zotero-better-bibtex). You need to export your Zotero library to a `.bib` file that you keep synchronised to your library. Then, you add `bibliography: /Users/jan/Documents/Zotero/better-bibtex/zotero-library.bib` to the YAML pre-amble of your Rmarkdown document. Then, if you install the `citr` package, you can simply click the add-in menu and insert a citation:
 
 ![](https://github.com/crsh/citr/raw/master/tools/images/addin_demo.gif)
 

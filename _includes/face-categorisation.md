@@ -4,7 +4,7 @@ I'm also interested in face categorisation. At the moment, I am
 mostly curious about the early stages of face perception, and in
  particular the simple distinction between a face and a
  different object. I'm using an experimental paradigm from the
- [Face Categorisation Lab](http://face-categorization-lab.webnode.com),
+ [Face Categorisation Lab](https://face-categorization-lab.webnode.com),
  who were kind enough to send me their stimuli. The experiment is
  designed to detect a signature of face processing using steady-state
  visual evoked potentials.

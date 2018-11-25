@@ -25,4 +25,4 @@ But you'll also see that large confidence intervals result in a much larger rang
 {% include inblog/shinyembed.html %}
 {:/}
 
-The code for this visualisation is available [here](https://www.github.com/janfreyberg/confidence-interval-simulation/), and you can view it below, or on a separate page [here](http://shiny.janfreyberg.com/confidence-intervals/). If you have any thoughts on improving the visualisation (much of which I gleamed from others' online, but which I didn't see anywhere in the way I wanted it), send me a tweet or open a Github issue.
+The code for this visualisation is available [here](https://www.github.com/janfreyberg/confidence-interval-simulation/), and you can view it below, or on a separate page [here](https://shiny.janfreyberg.com/confidence-intervals/). If you have any thoughts on improving the visualisation (much of which I gleamed from others' online, but which I didn't see anywhere in the way I wanted it), send me a tweet or open a Github issue.
