@@ -1,12 +1,7 @@
-# Stylish Portolio template for Jekyll
+# My personal website
 
-A Jekyll implementation of the [Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](https://startbootstrap.com/).
+This is my personal website.
 
-See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
+It uses a template which is here: [Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
 
-## To use the Stylish Portfolio template in your project
-
-- Start by adding your info in `_config.yml`
-- Add as many address lines as you want. Your address will also be used to show your location on the map.
-- For the emdeded map to work you'll need to [get a key from Google Maps Embed API](https://developers.google.com/maps/documentation/embed/?hl=en)
-- In `_layouts/front.html` reorder or remove section as you prefer.
+I've written a bit more about how this was built at my website: https://www.janfreyberg.com/blog/2016-11-20-how-i-built-this/
