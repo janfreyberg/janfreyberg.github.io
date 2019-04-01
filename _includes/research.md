@@ -1,13 +1,15 @@
 ## Research
 
-I study visual perception in clinical populations. Many
-psychiatric conditions feature atypical sensory processing,
-which can be caused by the same underlying processes that
-are causing core symptoms. By studying how people see
-the world, I hope to find out more about fundamental
-brain mechanisms in clinical conditions.
-Using vision science to study these conditions has
-the benefit of being cheap, non-invasive, and quick.
+I currently work on applied machine learning. I am in the _AI for Good_ team at
+Element AI, and work on implementing existing or new algorithms to support
+humanitarian and environmental work. Our team is building platforms and tools to
+support NGOs in their work.
 
-Find out more about my research by having a look at my
-various research projects below.
+In the past, I worked in applying machine learning in a commercial setting at
+_Faculty_, a London-based startup that, amongst other things, completes
+consulting projects for organisations.
+
+Before that, I studied visual perception in clinical populations. Many
+psychiatric conditions feature unusual sensory processing, which can be caused
+by the same underlying processes that are causing core symptoms. I ran
+behavioural studies to tap into these underlying processes.
